@@ -1,21 +1,21 @@
 # CS 221 - Assignment 1 - Part A: Word Frequencies
-# FileName: 75003249_partA.py
+# FileName: word_frequencies.py
 #
 # Student Name: Natarajan Chidhambharam
-# Student No: 75003249
 # 
 # Functions Implemented:
 # 		List<Token> tokenize(TextFilePath)
 # 		Map<Token,Count> computeWordFrequencies(List<Token>)
 # 		void print(Frequencies<Token,Count>)
 #
-# Execution: python 75003249_partA.py <Input-file name>
+# Execution: python word_frequencies.py <Input-file name>
 #
-# References: https://stackoverflow.com/questions/5622976/how-do-you-calculate-program-run-time-in-python
-#			  https://stackoverflow.com/questions/5733419/how-to-iterate-over-the-file-in-python
-#             https://stackoverflow.com/questions/5843518/remove-all-special-characters-punctuation-and-spaces-from-string/23853882
-#			  https://stackoverflow.com/questions/4546879/which-one-to-prefer-line-lower-vs-word-lower	
-#			  https://stackoverflow.com/questions/34156822/python-sort-dictionary-items-by-value-and-then-key
+# References: 
+# https://stackoverflow.com/questions/5622976/how-do-you-calculate-program-run-time-in-python
+# https://stackoverflow.com/questions/5733419/how-to-iterate-over-the-file-in-python
+# https://stackoverflow.com/questions/5843518/remove-all-special-characters-punctuation-and-spaces-from-string/23853882
+# https://stackoverflow.com/questions/4546879/which-one-to-prefer-line-lower-vs-word-lower	
+# https://stackoverflow.com/questions/34156822/python-sort-dictionary-items-by-value-and-then-key
 
 import sys 
 import re
