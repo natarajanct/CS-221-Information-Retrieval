@@ -5,7 +5,7 @@
 # 
 # The program takes two text files as arguments and outputs the number of tokens they have in common
 #
-# Execution: python 75003249_partB.py <Input-file 1> <Input-file 2>
+# Execution: python intersection_of_two_files.py <Input-file 1> <Input-file 2>
 #
 # References: 
 # https://stackoverflow.com/questions/5622976/how-do-you-calculate-program-run-time-in-python
