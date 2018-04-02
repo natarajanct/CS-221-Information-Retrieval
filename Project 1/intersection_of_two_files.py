@@ -11,8 +11,8 @@
 # https://stackoverflow.com/questions/5622976/how-do-you-calculate-program-run-time-in-python
 # https://stackoverflow.com/questions/5733419/how-to-iterate-over-the-file-in-python
 # https://stackoverflow.com/questions/5843518/remove-all-special-characters-punctuation-and-spaces-from-string/23853882
-#	https://stackoverflow.com/questions/4546879/which-one-to-prefer-line-lower-vs-word-lower	
-#	https://www.geeksforgeeks.org/python-intersection-two-lists/
+# https://stackoverflow.com/questions/4546879/which-one-to-prefer-line-lower-vs-word-lower	
+# https://www.geeksforgeeks.org/python-intersection-two-lists/
 
 import sys 
 import re
