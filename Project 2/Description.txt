@@ -1,0 +1,32 @@
+Define function extract_next_links (applications/search/crawler_frame.py) 
+This function extracts links from the content of a downloaded webpage. 
+Save the details that have been downloaded in your own machine. 
+Input:  raw_content_obj 
+Output: list of URLs in string form. Each URL should be in absolute form. It is not required to 
+remove duplicates that have already been downloaded. The frontier takes care of ignoring 
+duplicates. 
+Note: raw_content_obj is an object of Type “ UrlResponse”  declared at L12‐22 
+datamodel/search/client_datamodel.py 
+Each object contains information that can be used to make an informed decision for link 
+extraction. The detailed description of each field is given below: 
+ url: The source link given by the frontier. 
+ content: The raw_content that was downloaded by the crawler client using the given 
+URL. 
+ error_message: The HTTP error message/ custom error message in case of failure. 
+ headers: The HTTP response headers returned on download. 
+ http_code: The HTTP response code sent by the server on download. 
+ is_redirected: Boolean that declares if there were redirects when downloading this URL. 
+(True if the URL was redirected, False if not) 
+ final_url: In case of redirects (i.e. is_redirected = True), the final URL where the resource 
+was found. If there were no redirects, this URL is left as None. 
+ 
+4. Define function is_valid (applications/search/crawler_frame.py) 
+This function returns True or False based on whether a URL is valid and must be downloaded or 
+not. 
+Input: URL is the URL of a web page in string form 
+Output: True if URL is valid, False if the URL otherwise. Robot rules and duplication rules are 
+checked separately and should not be checked here. This is a place to 
+1. filter out crawler traps (e.g. the ICS calendar) 
+2. double check that the URL is valid and in absolute form. 
+Returning False on a URL does not let that URL to enter your 
+frontier. 
