@@ -1,15 +1,15 @@
 # CS 221 - Assignment 1 - Part C: Reducing two word-frequency counts
-# FileName: 75003249_partC.py
+# FileName: reducing_two_word_frequency_counts.py
 #
 # Student Name: Natarajan Chidhambharam
-# Student No: 75003249
 # 
 # The program takes two word-frequency maps and creates an output word-frequency count file where the counts are added
 #
-# Execution: python 75003249_partC.py <Input-file 1> <Input-file 2>
+# Execution: python reducing_two_word_frequency_counts.py <Input-file 1> <Input-file 2>
 #
-# References: https://stackoverflow.com/questions/5622976/how-do-you-calculate-program-run-time-in-python
-#             https://stackoverflow.com/questions/34156822/python-sort-dictionary-items-by-value-and-then-key
+# References: 
+# https://stackoverflow.com/questions/5622976/how-do-you-calculate-program-run-time-in-python
+# https://stackoverflow.com/questions/34156822/python-sort-dictionary-items-by-value-and-then-key
 
 import sys 
 import re
